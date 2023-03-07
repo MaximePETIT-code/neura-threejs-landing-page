@@ -2,7 +2,8 @@
   "name": "neura-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "source": "./*.html",
+  "main": "./index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --no-minify --public-url ./",
