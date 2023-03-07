@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "RadioGrotesk";
+  src: url("../assets/font/RadioGrotesk.otf");
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/font/Calibre.otf");
+}
+
+
+//Fonts
+$RadioGrotesk: 'RadioGrotesk', sans-serif;
+$Calibre: 'Calibre', sans-serif;
+
+//Colors
+$white: #eeeef1;
+$blue: #2B38F3;
+$grey: #333333;
