@@ -23,7 +23,7 @@ import {
 } from "webgi";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./styles.scss";
+import "./styles/styles.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -98,7 +98,7 @@ async function setupViewer() {
   viewer.renderer.refreshPipeline();
 
   // WEBGi load model
-  await manager.addFromPath("./assets/neura.glb");
+  await manager.addFromPath("./assets/neura1.glb");
 
   let neura: Mesh<BufferGeometry, MeshStandardMaterial2>;
 

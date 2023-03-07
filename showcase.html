@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nera by Mads - Showcase</title>
+  <title>WebGi starter</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 </head>
+
 <body>
-  hello world
+  <div class="loader">
+    <div class="logo">
+      <img src="assets/images/mads_icon.svg" alt="Icone Neura">
+    </div>
+    <span>Chargement du modèle...</span>
+    <div class="progress"></div>
+  </div>
+
+  <div id="webgi-canvas-container">
+    <canvas id="webgi-canvas"></canvas>
+  </div>
+
+  <script src="src/showcase.ts">
+  </script>
 </body>
+
 </html>
