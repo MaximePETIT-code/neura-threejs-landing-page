@@ -5,8 +5,8 @@
   "source": "./*.html",
   "main": "./index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --public-url ./",
+    "start": "parcel index.html *.html",
+    "build": "parcel build index.html  *.html --no-minify --public-url ./",
     "deploy": "vercel --prod"
   },
   "devDependencies": {
