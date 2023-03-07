@@ -47,6 +47,7 @@ async function setupViewer() {
 
   function introAnimation() {
     firstLooad = false;
+    document.body.style.cursor = "grab";
     const introTL = gsap.timeline();
     introTL.to(".loader", {
       x: "100%",
