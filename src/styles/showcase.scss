@@ -4,6 +4,7 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
+  font-family: $Calibre;
 }
 
 #webgi-canvas {
@@ -44,4 +45,8 @@ body {
     height: 25px;
     fill: $white;
   }
+}
+
+.loader span{
+  font-size: 1.2rem;
 }
